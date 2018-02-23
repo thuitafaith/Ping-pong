@@ -10,12 +10,36 @@
 
 </head>
 <body>
-  <div class="conatiner">
+  <div class="jumbotron">
     <h1>Ping Pong</h1>
-    <h2>Let's Play!</h2>
-    <h5>Rules:</h5>
-
   </div>
+
+    <div class="pingpong-rules">
+      <h2>Let's Play!</h2>
+      <h1>RULES:</h1>
+
+      <p>Ping Pong will count up to your number from 1 with the following exceptions:</p>
+        <ol>
+          <li>Numbers divisible by 3 are replaced with "ping"</li>
+          <li>Numbers divisible by 5 are replaced with "pong"</li>
+          <li>Numbers divisible by 15 are replaced with "pingpong"</li>
+        </ol>
+      </div>
+        <form id="ping-pong">
+         <div class="form-group">
+           <label for="number">Enter your number here:</label>
+           <input id="number" type="text">
+
+         <button type="submit" class="btn" id="pingpong-btn">Ping Pong!</button>
+       </form>
+
+       <div id="result">
+
+       </div>
+     </div>
+
+
+
 
 
 
